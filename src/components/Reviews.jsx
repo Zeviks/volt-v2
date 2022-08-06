@@ -2,7 +2,7 @@ import React from 'react'
 
 const Reviews = () => {
   return (
-    <div class="max-w-5xl px-4 py-8 mx-auto">
+    <div class="max-w-5xl px-4 py-8 mx-auto mt-8">
   <section class="p-8 bg-indigo-500 rounded-lg">
     <div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
       <div class="relative">

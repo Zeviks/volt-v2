@@ -2,7 +2,9 @@ import React from 'react'
 
 const Partners = () => {
   return (
-    <section class="bg-indigo-500 dark:bg-gray-900 mt-12 mb-5">
+    <section class=" dark:bg-gray-900 mt-5 mb-5">
+        <h2 class="mb-8 lg:mb-8 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 dark:text-white md:text-4xl">Our awesome partners</h2>
+    <div className='bg-indigo-500'>
         <div class="py-6 lg:py-16 mx-auto max-w-screen-xl px-4">
             <div class="grid grid-cols-2 gap-8 text-white sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
                 <a href="#" class="flex justify-center items-center">
@@ -62,6 +64,7 @@ const Partners = () => {
                 </a>
             </div>
         </div>
+    </div>
     </section>
   )
 }
