@@ -22,7 +22,7 @@ const Stats = () => {
                 Total Users
               </dt>
 
-              <dd className="text-4xl font-extrabold text-blue-600 md:text-5xl text-indigo-500">
+              <dd className="text-4xl font-extrabold text-indigo-500 md:text-5xl text-indigo-500">
                 4.8m
               </dd>
             </div>
@@ -32,7 +32,7 @@ const Stats = () => {
                 Contributors
               </dt>
 
-              <dd className="text-4xl font-extrabold text-blue-600 md:text-5xl text-indigo-500">
+              <dd className="text-4xl font-extrabold text-indigo-500 md:text-5xl text-indigo-500">
                 24
               </dd>
             </div>
@@ -42,7 +42,7 @@ const Stats = () => {
                 Best Upcoming Company in the U.S
               </dt>
 
-              <dd className="text-4xl font-extrabold text-blue-600 md:text-5xl text-indigo-500">
+              <dd className="text-4xl font-extrabold text-indigo-500 md:text-5xl text-indigo-500">
                 #3
               </dd>
             </div>
