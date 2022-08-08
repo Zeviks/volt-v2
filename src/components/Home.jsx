@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <section className="bg-white h-full mt-10">
       <div className="grid max-w-screen-2xl px-4 py-8 mx-auto my-10 lg:gap-8 xl:gap-10 lg:py-16 lg:grid-cols-12 lg:max-w-screen-xl 2xl:max-w-screen-2xl">
-        <div className="mr-auto place-self-center xl:col-span-6">
+        <div className="mr-auto place-self-center lg:col-span-6">
           <h1 className="max-w-3xl mb-4 font-bold text-3xl leading-none md:max-w-full md:text-5xl lg:text-5xl xl:text-6xl text-slate-900">
             High-quality Video Conferencing With
             <br />
