@@ -12,7 +12,7 @@ const Home = () => {
             High-quality Video Conferencing With
             <br />
             <span className="text-indigo-500 font-extrabold">
-              No Strings Attach
+              No Strings Attached
             </span>
             .
           </h1>
