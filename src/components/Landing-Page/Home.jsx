@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { BsCameraVideo } from "react-icons/bs";
-import HeroImg from "./assets/hero-2.png";
+import HeroImg from "../assets/hero-2.png";
 
 const Home = () => {
   return (
