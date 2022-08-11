@@ -51,7 +51,7 @@ const Steps = () => {
           </div>
           <p className="text-sm text-slate-900">
             To get started, click the <br />"
-            <a href="/#" className="text-indigo-500 hover:text-indigo-400">
+            <a href="/dashboard" className="text-indigo-500 hover:text-indigo-400">
               Create a Call
             </a>
             " to be taken to the call dashboard.
@@ -90,14 +90,14 @@ const Steps = () => {
             </p>
           </div>
           <p className="text-sm text-slate-900">
-            If you would like someone to call you, just have them input your
+            If you would like someone to call you, just have them enter your
             code to call you.
           </p>
         </div>
       </div>
       <div className="text-center">
         <a
-          href="/"
+          href="/dashboard"
           className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white bg-indigo-500 hover:bg-indigo-400 transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
         >
           Get Started

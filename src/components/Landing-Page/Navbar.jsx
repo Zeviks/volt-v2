@@ -16,7 +16,7 @@ const Navbar = () => {
             type="button"
             className="text-black hover:text-white border-[1px] border-black hover:bg-indigo-500 font-medium rounded-[5px] text-sm px-8 py-2.5 text-center mr-3 md:mr-0 transition-all"
           >
-            Contact
+            Try It
           </button>
           <button
             data-collapse-toggle="navbar-cta"

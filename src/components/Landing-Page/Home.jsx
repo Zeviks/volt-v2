@@ -24,14 +24,14 @@ const Home = () => {
           </p>
           <div className="flex items-center">
             <a
-              href="/#"
+              href="/dashboard"
               className="inline-flex items-center justify-center px-5 py-4 md:px-8 md:py-4  mr-3 text-base font-medium text-center text-white rounded-[5px] bg-slate-900 hover:bg-indigo-500 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900 transition-all"
             >
               <BsCameraVideo className="w-5 h-5 ml-2 mr-2" />
               Create a Call
             </a>
             <a
-              href="/#"
+              href="https://github.com/Zeviks/volt-v2"
               className="inline-flex items-center justify-center px-3 py-3 text-base font-medium text-center text-white bg-indigo-300 border-slate-900 rounded-lg hover:bg-indigo-500 hover:text-white transition-all"
             >
               <FaGithub className="w-[2rem] h-[2rem]" />
