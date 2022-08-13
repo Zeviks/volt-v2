@@ -33,6 +33,7 @@ const Home = () => {
             <a
               href="https://github.com/Zeviks/volt-v2"
               className="inline-flex items-center justify-center px-3 py-3 text-base font-medium text-center text-white bg-indigo-300 border-slate-900 rounded-lg hover:bg-indigo-500 hover:text-white transition-all"
+              aria-disabled="true"
             >
               <FaGithub className="w-[2rem] h-[2rem]" />
             </a>

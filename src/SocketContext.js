@@ -15,17 +15,20 @@ const ContextProvider = ({ children }) => {
   const [call, setCall] = useState({});
   const [me, setMe] = useState("");
 
-  const myVideo = useRef();
-  const userVideo = useRef();
-  const connectionRef = useRef();
+  const myVideo = useRef(null);
+  const userVideo = useRef(null);
+  const connectionRef = useRef(null);
 
   useEffect(() => {
     navigator.mediaDevices
       .getUserMedia({ video: true, audio: true })
       .then((currentStream) => {
         setStream(currentStream);
-
-        myVideo.current.srcObject = currentStream;
+        try {
+          myVideo.current.srcObject = currentStream;
+        } catch (e) {
+          console.log(e);
+        }
       });
 
     socket.on("me", (id) => setMe(id));
