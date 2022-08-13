@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
       <div className="container flex flex-wrap justify-between items-center mx-auto w-full">
         <a
-          href="https://flowbite.com/"
+          href="/#"
           className="flex items-center h-6 md:mr-[6.4rem] sm:mr-0 sm:h-9"
         >
           <BsLightningFill className="w-8 h-8 mr-auto hover:text-indigo-500 text-slate-900 transition-all" />
@@ -16,7 +16,7 @@ const Navbar = () => {
             type="button"
             className="text-black hover:text-white border-[1px] border-black hover:bg-indigo-500 font-medium rounded-[5px] text-sm px-8 py-2.5 text-center mr-3 md:mr-0 transition-all"
           >
-            Try It
+            Contact
           </button>
           <button
             data-collapse-toggle="navbar-cta"
@@ -36,7 +36,7 @@ const Navbar = () => {
               <path
                 fill-rule="evenodd"
                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                clip-rule="evenodd"
+                clip-path="evenodd"
               ></path>
             </svg>
           </button>
@@ -57,7 +57,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="/#"
+                href="https://www.natepacheco.dev/#projects"
                 className="block py-2 pr-4 pl-3 text-gray-700 rounded md:hover:bg-transparent md:hover:text-indigo-300 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 transition-all"
               >
                 Portfolio
@@ -68,7 +68,7 @@ const Navbar = () => {
                 href="/#"
                 className="block py-2 pr-4 pl-3 text-gray-700 rounded md:hover:bg-transparent md:hover:text-indigo-300 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 transition-all"
               >
-                Contact
+                About
               </a>
             </li>
           </ul>
