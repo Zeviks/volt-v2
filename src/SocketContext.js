@@ -19,9 +19,10 @@ const ContextProvider = ({ children }) => {
   const userVideo = useRef(null);
   const connectionRef = useRef(null);
 
+  // Ask For Permission
   useEffect(() => {
     navigator.mediaDevices
-      .getUserMedia({ video: true, audio: true })
+      .getUserMedia({ video: false, audio: false })
       .then((currentStream) => {
         setStream(currentStream);
         try {
