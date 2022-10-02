@@ -13,10 +13,6 @@ Native Mobile / React Native : In Development 🛠
 
 Check Out The Site 🌏: https://frolicking-cupcake-8a0963.netlify.app/ </br>
 
-## Installation Guide
-`git clone https://github.com/Zeviks/volt-v2.git` </br>
-`npm install` </br>
-`npm start`
 
 ## Technologies Used 🧪 </br>
 TailwindCSS </br>
